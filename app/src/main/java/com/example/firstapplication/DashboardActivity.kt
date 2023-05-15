@@ -14,8 +14,8 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        welcomeText ="Welcome "+ getIntent().getStringExtra("username").toString() + "!";
-        tvWelcome = this.findViewById(R.id.tvWelcome);
-        tvWelcome.setText(welcomeText);
+        welcomeText ="Welcome "+ getIntent().getStringExtra("username").toString() + "!"
+        tvWelcome = this.findViewById(R.id.tvWelcome)
+        tvWelcome.setText(welcomeText)
     }
 }
